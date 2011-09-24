@@ -10,12 +10,19 @@
   <utility factory=".settings.XMPPUsers" />
   <utility factory=".storage.PubSubStorage" />
 
+  <genericsetup:importStep
+    name="CMSUI"
+    title="CMSUI"
+    description="plone.app.cmsui Integration."
+    handler=".setuphandlers.setupCMSUI">
+  </genericsetup:importStep>
+
   <genericsetup:registerProfile
     name="default"
     title="jarn.xmpp.core"
     directory="profiles/default"
     description="Plone messaging"
     provides="Products.GenericSetup.interfaces.EXTENSION"
-    />
+    />  
 
 </configure>

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <object name="portal_css">
-  <stylesheet  id="++resource++gritter/jquery.gritter.css" />
-  <stylesheet  id="++resource++jarn.xmpp.core.css/styles.css" />
+  <stylesheet id="++resource++gritter/jquery.gritter.css" bundle="xmpp"/>
+  <stylesheet id="++resource++jarn.xmpp.core.css/styles.css" bundle="xmpp"/>
 </object>
